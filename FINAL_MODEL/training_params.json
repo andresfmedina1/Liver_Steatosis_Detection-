@@ -1,0 +1,19 @@
+{
+  "dataset_root": "/content/drive/MyDrive/Challenge_Liver_MIP/DATASET_liver_stu_MACENKO_SOFT_ABL_6",
+  "input_size": [
+    416,
+    416
+  ],
+  "in_channels": 3,
+  "out_channels": 1,
+  "init_filters": 32,
+  "depth": 4,
+  "bilinear_up": true,
+  "criterion": "bce_dice",
+  "n_epochs": 150,
+  "batch_size": 4,
+  "learning_rate": 0.0001,
+  "checkpoint_freq": 1,
+  "val_thresh": 0.5,
+  "min_obj_area": 10
+}
